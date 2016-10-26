@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
 @font-face {
     font-family: roadrage;
     src: url(Road_Rage.otf);
@@ -9,14 +11,18 @@ html, body {
 
 body {
     text-align: center;
-    background: url('../img/background2.jpg') center repeat;
+    background: url('../img/background3.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 h1 {
     width: 600px;
     padding: 3%;
     font-size: 4em;
-    font-family: roadrage;
+    font-family: 'roadrage', 'Permanent Marker', sans-serif;
     letter-spacing: 2px;
     color: #FC00FF;
     /**background: url('../img/pink.png');**/
@@ -71,13 +77,13 @@ h1 {
 
 #raceInfo1 {
     color: #FC00FF;
-    font-family: roadrage;
+    font-family: 'roadrage', 'Permanent Marker', sans-serif;
     letter-spacing: 2px;
 }
 
 #raceInfo2 {
     color: #00FFEF;
-    font-family: roadrage;
+    font-family: 'roadrage', 'Permanent Marker', sans-serif;
     letter-spacing: 2px;
 }
 
